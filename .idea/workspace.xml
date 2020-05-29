@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="028429b4-0a24-42c5-bd56-df0fcbf39855" name="默认" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/maven-oj/src/main/java/common/DBUtil.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maven_oj_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/maven_oj_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/maven-oj/maven-oj.iml" afterPath="$PROJECT_DIR$/maven-oj/maven-oj.iml" />
-      <change beforePath="$PROJECT_DIR$/maven-oj/pom.xml" afterPath="$PROJECT_DIR$/maven-oj/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/maven-oj/src/main/java/common/DBUtil.java" afterPath="$PROJECT_DIR$/maven-oj/src/main/java/common/DBUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/maven-oj/target/" />
@@ -108,8 +101,8 @@
       <file leaf-file-name="DBUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maven-oj/src/main/java/common/DBUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+            <state relative-caret-position="416">
+              <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,7 +198,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="35" />
     <option name="width" value="982" />
@@ -475,7 +468,7 @@
       <updated>1589620649549</updated>
       <workItem from="1589620654915" duration="2267000" />
       <workItem from="1589935983803" duration="758000" />
-      <workItem from="1590762627371" duration="2133000" />
+      <workItem from="1590762627371" duration="3072000" />
     </task>
     <task id="LOCAL-00001" summary="2.编译运行出错处理">
       <created>1589936714747</created>
@@ -484,14 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589936714747</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3.题目描述--数据库添加">
+      <created>1590768510383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590768510383</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5158000" />
+    <option name="totallyTimeSpent" value="6097000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="35" width="982" height="1056" extended-state="0" />
+    <frame x="-11" y="35" width="1942" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -506,7 +506,7 @@
       <window_info id="调色板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42825112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21706264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="设计器" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -564,7 +564,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2.编译运行出错处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.编译运行出错处理" />
+    <MESSAGE value="3.题目描述--数据库添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.题目描述--数据库添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -745,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maven-oj/src/main/java/common/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        <state relative-caret-position="416">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

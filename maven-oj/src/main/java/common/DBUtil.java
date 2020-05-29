@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * 建立数据库连接，进一步操作数据库
+ * 使用该DBUtil建立数据库连接，进一步操作数据库
  * @author zhaomin
  * @date 2020/5/29 23:42
  */
