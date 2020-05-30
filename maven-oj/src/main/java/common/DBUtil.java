@@ -14,7 +14,7 @@ import java.sql.SQLException;
  * @date 2020/5/29 23:42
  */
 public class DBUtil {
-    private static final String URL = "jdbc:mysql://127.0.0.0.0:3306/online_oj?characterEncoding=utf-8&&useSSL=true";
+    private static final String URL = "jdbc:mysql://127.0.0.1:3306/online_oj?characterEncoding=utf-8&&useSSL=true";
     private static final String USERNAME="root";
     private static final String PASSWORD = "";
 
