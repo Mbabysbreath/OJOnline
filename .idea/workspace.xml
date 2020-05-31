@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="028429b4-0a24-42c5-bd56-df0fcbf39855" name="默认" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/maven-oj/src/main/java/api/PronlemServlet.java" afterPath="$PROJECT_DIR$/maven-oj/src/main/java/api/PronlemServlet.java" />
-      <change beforePath="$PROJECT_DIR$/maven-oj/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/maven-oj/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/maven-oj/target/" />
@@ -609,7 +607,7 @@
       <workItem from="1590762627371" duration="3378000" />
       <workItem from="1590844060137" duration="5404000" />
       <workItem from="1590850540326" duration="4692000" />
-      <workItem from="1590920051107" duration="4987000" />
+      <workItem from="1590920051107" duration="5239000" />
     </task>
     <task id="LOCAL-00001" summary="2.编译运行出错处理">
       <created>1589936714747</created>
@@ -646,11 +644,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590931989824</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="4.servlet对页面的处理和web.xml的配置">
+      <created>1590932183694</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590932183694</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21486000" />
+    <option name="totallyTimeSpent" value="21738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="35" width="1942" height="1056" extended-state="6" />
