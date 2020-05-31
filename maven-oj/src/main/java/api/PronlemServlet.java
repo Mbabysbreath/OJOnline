@@ -25,7 +25,7 @@ public class PronlemServlet extends HttpServlet {
             //1.没有id这个参数，就执行查找全部题目      }
             selectAll(resp);
         } else {
-            //2.存在id参数，执行查找指定题目信息
+            //2.存在id参数，执行查找指定题目信息逻辑
             selectOne(Integer.parseInt(id), resp);
         }
     }

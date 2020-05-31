@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="028429b4-0a24-42c5-bd56-df0fcbf39855" name="默认" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/maven-oj/src/main/java/api/PronlemServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/maven-oj/src/main/test/TestGson.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/maven-oj/src/main/webapp/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maven_oj_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/maven_oj_war.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maven_oj_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/maven_oj_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/maven-oj/pom.xml" afterPath="$PROJECT_DIR$/maven-oj/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/maven-oj/src/main/java/api/PronlemServlet.java" afterPath="$PROJECT_DIR$/maven-oj/src/main/java/api/PronlemServlet.java" />
       <change beforePath="$PROJECT_DIR$/maven-oj/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/maven-oj/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maven-oj/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="104">
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -71,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PronlemServlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PronlemServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maven-oj/src/main/java/api/PronlemServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="182">
+              <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,10 +183,10 @@
         <option value="$PROJECT_DIR$/maven-oj/src/main/java/common/DBUtil.java" />
         <option value="$PROJECT_DIR$/maven-oj/src/main/java/problem/ProblemDAO.java" />
         <option value="$PROJECT_DIR$/maven-oj/src/main/test/TestGson.java" />
-        <option value="$PROJECT_DIR$/maven-oj/src/main/java/api/PronlemServlet.java" />
         <option value="$PROJECT_DIR$/maven-oj/pom.xml" />
         <option value="$PROJECT_DIR$/maven-oj/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/maven-oj/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/maven-oj/src/main/java/api/PronlemServlet.java" />
       </list>
     </option>
   </component>
@@ -245,7 +240,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="35" />
     <option name="width" value="982" />
@@ -299,6 +294,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OJOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OJOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-oj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OJOnline" type="b2602c69:ProjectViewProjectNode" />
@@ -605,7 +609,7 @@
       <workItem from="1590762627371" duration="3378000" />
       <workItem from="1590844060137" duration="5404000" />
       <workItem from="1590850540326" duration="4692000" />
-      <workItem from="1590920051107" duration="4754000" />
+      <workItem from="1590920051107" duration="4987000" />
     </task>
     <task id="LOCAL-00001" summary="2.编译运行出错处理">
       <created>1589936714747</created>
@@ -635,14 +639,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590855001064</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4.servlet对页面的处理和web.xml的配置">
+      <created>1590931989824</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590931989824</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21253000" />
+    <option name="totallyTimeSpent" value="21486000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="35" width="982" height="1056" extended-state="0" />
+    <frame x="-11" y="35" width="1942" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -652,13 +663,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29596412" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14254859" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="调色板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925338" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2735426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22786178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="设计器" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -717,7 +728,8 @@
     <MESSAGE value="2.编译运行出错处理" />
     <MESSAGE value="3.题目描述--数据库添加" />
     <MESSAGE value="3.题目描述--对问题的操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.题目描述--对问题的操作" />
+    <MESSAGE value="4.servlet对页面的处理和web.xml的配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.servlet对页面的处理和web.xml的配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1116,16 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maven-oj/src/main/java/api/PronlemServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maven-oj/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1144,9 +1146,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maven-oj/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="104">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-oj/src/main/java/api/PronlemServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
