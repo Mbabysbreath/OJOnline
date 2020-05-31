@@ -7,6 +7,7 @@
     <groupId>zhaomin</groupId>
     <artifactId>maven-oj</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <!-- 打包方式是 war 包，一种用于 web 应用的包，原理类似 jar 包 -->
     <packaging>war</packaging>
 
     <!-- 指定属性信息 -->
@@ -47,7 +48,7 @@
 
     <build>
         <!-- 指定最终 war 包的名称 -->
-        <finalName>maven-oj</finalName>
+        <finalName>online-oj</finalName>
 
         <!-- 明确指定一些插件的版本，以免受到 maven 版本的影响 -->
         <pluginManagement>
