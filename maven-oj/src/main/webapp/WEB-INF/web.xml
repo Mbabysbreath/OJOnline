@@ -11,4 +11,12 @@
         <servlet-name>ProblemServlet</servlet-name>
         <url-pattern>/problem</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>CompileServlet</servlet-name>
+        <servlet-class>api.CompileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CompileServlet</servlet-name>
+        <url-pattern>/compile</url-pattern>
+    </servlet-mapping>
 </web-app>

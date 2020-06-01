@@ -30,10 +30,25 @@ public class PronlemServlet extends HttpServlet {
         }
     }
 
-    private void selectOne(int i, HttpServletResponse resp) {
+    private void selectOne(int problemId, HttpServletResponse resp) throws IOException {
+        resp.setContentType("application/json;charset=utf-8");
+        ProblemDAO problemDAO=new ProblemDAO();
+        Problem problem = problemDAO.selectOne(problemId);
+        //测试代码不应该告诉前端用户，此时手动把这个内容清理掉
+        problem.setTemplateCode("");
+        String jsonString = gson.toJson(problem);
+        resp.getWriter().write(jsonString);
     }
 
     private void selectAll(HttpServletResponse resp) throws IOException {
+        //ContentType--描述body中的数据的类型是啥样的
+        //常见取值：html:text/html
+        //图片：image/png  image/jpg
+        //json:application/json
+        //css:text/css
+        //javascript:application/javascript
+        //此处还能同时设置字符集
+        resp.setContentType("application/json;charset=utf-8");
         ProblemDAO problemDAO = new ProblemDAO();
         List<Problem> problems = problemDAO.selectAll();
         //把结果组织成json结构
