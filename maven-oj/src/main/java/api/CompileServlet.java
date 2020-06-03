@@ -129,15 +129,13 @@ public class CompileServlet extends HttpServlet {
     private String readBody(HttpServletRequest req) {
         //body的长度在header中的一个Content-Length字段中
         //contentLength单位就是字节
-        int contentLenrth=req.getContentLength();
-        byte[] buf = new byte[contentLenrth];
+        int contentLength=req.getContentLength();
+        byte[] buf = new byte[contentLength];
         try (ServletInputStream inputStream = req.getInputStream()) {
-            inputStream.read(buf,0,contentLenrth);
+            inputStream.read(buf,0,contentLength);
         } catch (IOException e) {
             e.printStackTrace();
         }
         return new String(buf);
-
-
     }
 }

@@ -35,7 +35,7 @@ public class PronlemServlet extends HttpServlet {
         ProblemDAO problemDAO=new ProblemDAO();
         Problem problem = problemDAO.selectOne(problemId);
         //测试代码不应该告诉前端用户，此时手动把这个内容清理掉
-        problem.setTemplateCode("");
+        problem.setTestCode("");
         String jsonString = gson.toJson(problem);
         resp.getWriter().write(jsonString);
     }
@@ -55,10 +55,5 @@ public class PronlemServlet extends HttpServlet {
         //【注意】需要把problem中的有序字段注释掉
         String jsonString = gson.toJson(problems);
         resp.getWriter().write(jsonString);
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
     }
 }
