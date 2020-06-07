@@ -13,7 +13,7 @@ import java.io.OutputStream;
  */
 public class CommandUtil {
     //cmd:表示要执行的命令
-    // stdoutFile:表示输出结果重定向到哪个文件中，如果为null
+    // stdoutFile:表示输出结果重定向到哪个文件中，如果为null表示不需要重定向
     //stderrFile:标准错误重定向到哪个文件
     public static int run(String cmd, String stdoutFile,
                            String stderrFile) throws IOException, InterruptedException {
