@@ -44,5 +44,4 @@
 ![image](https://github.com/Mbabysbreath/OJOnline/blob/master/details.png)
 (4)代码编辑框
 ![image](https://github.com/Mbabysbreath/OJOnline/blob/master/compile.png)
-(5)运行结果
-![image](https://github.com/Mbabysbreath/OJOnline/blob/master/result.png)
+
